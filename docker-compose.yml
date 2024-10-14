@@ -46,8 +46,4 @@ services:
 volumes:
   pg_data:
   pg_logs:
-networks:
-  default:
-    name: my_network
-    external: true
 
